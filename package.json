@@ -1,12 +1,12 @@
 {
-  "name": "minecraft-protocol",
-  "version": "1.68.0",
+  "name": "@mclist/minecraft-protocol",
+  "version": "1.68.0-mclist.1",
   "description": "Parse and serialize minecraft packets, plus authentication and encryption.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PrismarineJS/node-minecraft-protocol.git"
+    "url": "git+https://github.com/mclist-co/node-minecraft-protocol.git"
   },
   "scripts": {
     "test": "npm run mochaTest",
@@ -64,5 +64,8 @@
     "readable-stream": "^4.1.0",
     "uuid-1345": "^1.0.1",
     "yggdrasil": "^1.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
